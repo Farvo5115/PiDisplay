@@ -1,0 +1,4 @@
+#add lines below to end of file
+
+sudo mount.cifs //172.18.23.4/shared/presentations /home/pi/windowshare -o credentials=/home/pi/cred
+libreoffice --norestore -show /home/pi/windowshare/powerpoint.odp
